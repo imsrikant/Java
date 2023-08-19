@@ -1,10 +1,10 @@
 {
-  "forwardPorts": [
-    5000,
-    5900,
-    6081,
-    8080,
-    8082
+  "name": "Java",
+  "extensions": [
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "dbaeumer.vscode-eslint"
   ],
-  "image": "ghcr.io/cs50/codespace:c7b3297672a77a24c64febb88983b1027145a0ba"
+  "settings": {},
+  "forwardPorts": [3000, 8080],
+  "postCreateCommand": "echo 'Container setup complete.'"
 }
