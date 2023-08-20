@@ -47,5 +47,5 @@ Team::Team(string name, int wins, int losses, int draws) {
     }
 
     int Team::getDraws() {
-    return draws;
+        return draws;
     }
