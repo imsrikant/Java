@@ -14,5 +14,29 @@ class Team {
         int draws;
 
     public:
-    tea
+    Team(String, int , int, int);
+    string getName();
+    int getWins();
+    int getLosses();
+    int getDraws();
 }
+
+Team::Team(string name, int wins, int losses, int draws) {
+    this->name = name;
+    this->wins = wins;
+    this->losses = losses;
+    this->draws = draws;
+}
+
+    string Team::getName() {
+        return name;
+    }
+
+    int Team::getWins() {
+        return wins;
+    }
+
+    int Team::getLosses() {
+        return losses;
+    }
+    
