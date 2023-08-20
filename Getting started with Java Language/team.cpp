@@ -3,9 +3,9 @@ using namespace std;
 
 int main() {
     Team team1 = new Team("Team1", 2, 3, 4);
-    cout <<team1.getName();
-    cout <<team1.getWins();
-    cout <<team1.getLosses();
+    cout << team1.getName();
+    cout << team1.getWins();
+    cout << team1.getLosses();
     cout << "Hello, World!";
     return 0;
 }
