@@ -39,4 +39,5 @@ Team::Team(string name, int wins, int losses, int draws) {
     int Team::getLosses() {
         return losses;
     }
-    
+
+Team
