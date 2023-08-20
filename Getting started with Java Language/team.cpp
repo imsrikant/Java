@@ -7,5 +7,12 @@ int main() {
 }
 
 class Team {
-    priv
+    private:
+        string name;
+        int wins;
+        int losses;
+        int draws;
+
+    public:
+    tea
 }
