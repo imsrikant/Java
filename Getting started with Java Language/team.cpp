@@ -18,12 +18,12 @@ class Team {
         int draws;
 
     public:
-    Team(String, int , int, int);
-    string getName();
-    int getWins();
-    int getLosses();
-    int getDraws();
-}
+        Team(string, int , int, int);
+        string getName();
+        int getWins();
+        int getLosses();
+        int getDraws();
+};
 
 Team::Team(string name, int wins, int losses, int draws) {
     this->name = name;
