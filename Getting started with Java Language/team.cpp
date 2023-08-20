@@ -1,15 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    Team team1 = new Team("Team1", 2, 3, 4);
-    cout << team1.getName();
-    cout << team1.getWins();
-    cout << team1.getLosses();
-    cout << "Hello, World!";
-    return 0;
-}
-
 class Team {
     private:
         string name;
@@ -24,6 +15,16 @@ class Team {
         int getLosses();
         int getDraws();
 };
+
+int main() {
+    Team team1 = new Team("Team 1", 10, 5, 3);
+    cout << team1.getName();
+    cout << team1.getWins();
+    cout << team1.getLosses();
+    cout << "Hello, World!";
+    return 0;
+}
+
 
 Team::Team(string name, int wins, int losses, int draws) {
     this->name = name;
