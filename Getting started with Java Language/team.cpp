@@ -10,7 +10,7 @@ int main() {
     return 0;
 }
 
-class Team() {
+class Team {
     private:
         string name;
         int wins;
