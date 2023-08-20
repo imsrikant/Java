@@ -2,11 +2,15 @@
 using namespace std;
 
 int main() {
-    cout << "Hello, World!";
+    Team team1 = new Team("Team1", 2, 3, 4);
+    cout <<team1.getName(); << endl;
+    cout <<team1.getWins(); << endl;
+    cout <<team1.getLosses(); << endl;
+    cout << "Hello, World!"; << endl;
     return 0;
 }
 
-class Team {
+class Team() {
     private:
         string name;
         int wins;
@@ -39,5 +43,3 @@ Team::Team(string name, int wins, int losses, int draws) {
     int Team::getLosses() {
         return losses;
     }
-
-Team
