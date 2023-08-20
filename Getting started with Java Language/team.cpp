@@ -17,11 +17,12 @@ class Team {
 };
 
 int main() {
-    Team team1 = new Team("Team 1", 10, 5, 3);
-    cout << team1.getName();
-    cout << team1.getWins();
-    cout << team1.getLosses();
-    cout << "Hello, World!";
+    Team team1("Team 1", 10, 5, 3);
+    cout << team1.getName() << endl;
+    cout << team1.getWins() << endl;
+    cout << team1.getLosses() << endl;
+    cout << team1.getDraws() << endl;
+    cout << "Hello, World!" << endl;
     return 0;
 }
 
@@ -44,3 +45,6 @@ Team::Team(string name, int wins, int losses, int draws) {
     int Team::getLosses() {
         return losses;
     }
+int Team::getDraws() {
+    return draws;
+}
