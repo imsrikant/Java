@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class c {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
+
         float math, physics, chemistry, biology, computer;
         System.out.print("Enter Math Marks: ");
         math = scanner.nextFloat();
