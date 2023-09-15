@@ -1,4 +1,4 @@
-public class calofavg {
+public class question_2 {
     public static void main(String[] args) {
         int x, y, z, avg;
         x = 73;
