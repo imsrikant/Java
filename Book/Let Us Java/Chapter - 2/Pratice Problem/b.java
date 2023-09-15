@@ -1,4 +1,4 @@
-public class question_b {
+public class b {
     public static void main(String[] args) {
         float cityDistance = 2.5f;
         float meter = cityDistance * 1000;
