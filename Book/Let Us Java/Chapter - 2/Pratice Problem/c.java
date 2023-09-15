@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class c {
     public static void main(String[] args) {
-        
+
         Scanner scanner = new Scanner(System.in);
         float math, physics, chemistry, biology, computer;
         System.out.print("Enter Math Marks: ");
@@ -17,6 +17,7 @@ public class c {
         computer = scanner.nextFloat();
         if (math > 100 || physics > 100 || chemistry > 100 || biology > 100 || computer > 100) {
             System.out.println("Marks can't be greater than 100");
+            scanner.close();
             return;
         }
         float total = math + physics + chemistry + biology + computer;
@@ -36,5 +37,6 @@ public class c {
         } else {
             System.out.println("Grade: F");
         }
+        scanner.close();
     }
 }
