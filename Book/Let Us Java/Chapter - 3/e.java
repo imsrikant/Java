@@ -14,7 +14,7 @@ public class e {
         currency %= notes_50;
         tenToGive = (int) (currency / notes_10);
         currency %= notes_10;
-        System.out.println("100 : " + hundredToGive + " 50: " + fiftyToGive + " 10: " + tenToGive);
+        System.out.println("100 notes: " + hundredToGive + "\n50 notes: " + fiftyToGive + "\n10 notes: " + tenToGive);
         sc.close();
     }
 }

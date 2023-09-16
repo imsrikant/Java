@@ -1,7 +1,6 @@
 // calculate the sum of five digits number
 import java.util.Scanner;
 public class b {
-
     public static void main(String[] args) {
         int number, sum = 0, rem;
         Scanner sc = new Scanner(System.in);
