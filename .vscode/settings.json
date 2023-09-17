@@ -2,7 +2,8 @@
     "gitdoc.enabled": true,
     "java.debug.settings.onBuildFailureProceed": true,
     "cSpell.words": [
-        "Aurieel"
+        "Aurieel",
+        "Shyam"
     ],
     "git.ignoreLimitWarning": true
 }
