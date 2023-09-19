@@ -15,7 +15,7 @@ public class breakStatement {
         }
         if (i == num)
             System.out.println("Prime number");
-        
+
         sc.close();
     }
 }
