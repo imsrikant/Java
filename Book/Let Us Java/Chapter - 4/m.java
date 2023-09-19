@@ -17,7 +17,6 @@ public class m {
         else {
             System.out.println("Character is symbol");
         }
-
         sc.close();
     }
 }
