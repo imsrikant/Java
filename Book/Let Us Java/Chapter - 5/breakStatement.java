@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class breakStatement {
-    public static void main() {
+    public static void main(String[] args) {
         int num, i;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -13,6 +13,9 @@ public class breakStatement {
             }
             i++;
         }
+        if (i == num)
+            System.out.println("Prime number");
+        
         sc.close();
     }
 }
