@@ -1,12 +1,17 @@
-// all combinations of 1,2,3
-
+// prime number 1 to 300
 public class d {
     public static void main(String[] args) {
-        for (int i = 1; i <= 3; i++) {
-            for (int j = 1; j <= 3; j++) {
-                for (int k = 1; k <= 3; k++) {
-                    System.out.print(i + "" + j + "" + k + "\n");
+        int seriesStarts = 1, seriesEnds = 300;
+        for (int i = seriesStarts; i <= seriesEnds; i++) {
+            boolean isPrime = true;
+            for (int j = 2; j < i; j++) {
+                if (i%j == 0) {
+                    isPrime = false;
+                    break;
                 }
+            }
+            if (isPrime) {
+                System.out.print(i + " ");
             }
         }
     }
