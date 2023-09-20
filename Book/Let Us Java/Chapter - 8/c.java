@@ -17,7 +17,7 @@ public class c {
     static int getSum(int number) {
         int sum = 0;
         if (number == 0) {
-            return 0;
+            return 1;
         } else {
             sum = sum + getSum(number - 1);
         }
