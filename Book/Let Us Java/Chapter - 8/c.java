@@ -10,7 +10,8 @@ public class c {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number up to five digits: ");
         number = scanner.nextInt();
-
+        sum = getSum(number);
+        System.out.println("Sum: " + sum);
         scanner.close();
     }
 
