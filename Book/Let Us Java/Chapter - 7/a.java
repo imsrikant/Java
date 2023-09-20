@@ -13,7 +13,7 @@ public class a {
         System.out.println("Factorial: " + fact);
         sc.close();
     }
-
+/workspaces/Java/Book/Let Us Java/Chapter - 7
     public static int findFactorial(int number) {
         int fact = 1;
         for (int i = 1; i <= number; i++) {
