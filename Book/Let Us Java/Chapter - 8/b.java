@@ -1,7 +1,6 @@
 /**
  * b
  */
-import java.util.Scanner;
 public class b {
     public static void main(String[] args) {
         System.out.println("Minimum: " + min(1, 2, 3, 45, 57, 0, -99));
