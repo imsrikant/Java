@@ -4,7 +4,7 @@
  */
 import java.util.Scanner;
 
-public class g {
+public class recurcise {
     public static void main(String[] args) {
         int number;
         Scanner scanner = new Scanner(System.in);
