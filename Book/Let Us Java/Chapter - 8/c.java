@@ -16,11 +16,11 @@ public class c {
     }
 
     static int getSum(int number) {
-        int sum = 0;
+        int sum = 1;
         if (number == 0) {
             return 1;
         } else {
-            sum = sum + getSum(number - 1);
+            sum = sum + getSum(number % 10);
         }
         return sum;
     }
