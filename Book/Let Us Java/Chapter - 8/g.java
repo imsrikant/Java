@@ -16,12 +16,11 @@ public class g {
     }
 
     static int naturalSum(int number) {
-        int sum = 1;
+        // create a recursive function to calculate the sum of natural numbers
         if (number == 0) {
             return 0;
         } else {
-            sum += naturalSum(number - 1);
+            return number + naturalSum(number - 1);
         }
-        return sum;
     }
 }
