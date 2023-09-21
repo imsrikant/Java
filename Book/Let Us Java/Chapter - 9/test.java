@@ -56,5 +56,60 @@ public class test {
     r3.getData();
     r2.displayData();
     r2.areaPeri();
+
+    Complex c1Complex, c2Complex, c3Complex;
+
+    c1Complex = new Complex();
+    c1Complex.setData(2.0f, 2.0f);
+    c2Complex = new Complex();
    }
+}
+
+// complex class two float variables real & img two constructor getData(), setData(), displayData(), addComplex(), mulComplex();
+
+/**
+ * Complex
+ */
+class Complex {
+    private float real, img;
+
+    Complex() {
+    }
+
+     Complex(float real, float img) {
+         this.real = real;
+         this.img = img;
+    }
+
+    public void getData() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter real and imaginary number: ");
+        this.real = scanner.nextFloat();
+        this.img = scanner.nextFloat();
+        scanner.close();
+    }
+
+    public void setData(float real, float img) {
+        this.real = real;
+        this.img = img;
+    }
+
+    public void displayData() {
+        System.out.println("Real: " + real);
+        System.out.println("Image: " + img);
+    }
+
+    public Complex addComplex(Complex y) {
+        Complex tempComplex = new Complex();
+        tempComplex.real = this.real + y.real;
+        tempComplex.img = this.img + y.img;
+        return tempComplex;
+    }
+
+    public Complex multComplex(Complex y) {
+        Complex tempComplex = new Complex();
+        tempComplex.real = this.real * y.real;
+        tempComplex.img = this.img * y.img;
+        return tempComplex;
+    }
 }
