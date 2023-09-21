@@ -40,33 +40,33 @@ class Rectangle {
 
 public class test {
    public static void main(String[] args) {
-     Rectangle r1, r2, r3;
-    r1=new Rectangle();
-    r2=new Rectangle();
-    r3=new Rectangle();
+    // Rectangle r1, r2, r3;
+    // r1=new Rectangle();
+    // r2=new Rectangle();
+    // r3=new Rectangle();
 
-    r1.setData(10,20);
-    r1.displayData();
-    r1.areaPeri();
+    // r1.setData(10,20);
+    // r1.displayData();
+    // r1.areaPeri();
 
-    r2.setData(54.54f,54.48f);
-    r2.displayData();
-    r2.areaPeri();
+    // r2.setData(54.54f,54.48f);
+    // r2.displayData();
+    // r2.areaPeri();
 
-    r3.getData();
-    r2.displayData();
-    r2.areaPeri();
+    // r3.getData();
+    // r2.displayData();
+    // r2.areaPeri();
 
     Complex c1Complex, c2Complex, c3Complex;
 
     c1Complex = new Complex();
-    c1Complex.setData(2.0f, 2.0f);
-    c2Complex = new Complex();
+    c1Complex.setData(2.0f, 2.88f);
+    c2Complex = new Complex(5,8);
     c3Complex = new Complex();
     c3Complex = c1Complex.addComplex(c2Complex);
-    System.out.println("Complex C3: ");
+    System.out.println("Complex C3");
     c3Complex.displayData();
-    
+
    }
 }
 
