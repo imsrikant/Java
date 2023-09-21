@@ -62,6 +62,11 @@ public class test {
     c1Complex = new Complex();
     c1Complex.setData(2.0f, 2.0f);
     c2Complex = new Complex();
+    c3Complex = new Complex();
+    c3Complex = c1Complex.addComplex(c2Complex);
+    System.out.println("Complex C3: ");
+    c3Complex.displayData();
+    
    }
 }
 
