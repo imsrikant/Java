@@ -15,6 +15,8 @@ public class b {
             System.out.printf("Enter the element %d: ", (i + 1));
             arr[i] = scanner.nextInt();
         }
+        evenAndOdd(arr);
+        positiveOrNot(arr);
         scanner.close();
     }
 
