@@ -12,12 +12,12 @@ public class a {
         arr = new double[25];
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < arr.length; i++) {
-            System.out.print("Enter the element " + (i + 1) + ": ");
+            System.out.printf("Enter the element %d: ", (i + 1));
             arr[i] = scanner.nextDouble();
         }
         System.out.print("Enter the value for search: ");
         double value = scanner.nextDouble();
-        System.out.printf("The number of time value is present is %i.", (howManyTimes(arr, value)));
+        System.out.printf("The number of time value is present is %d.", (howManyTimes(arr, value)));
         scanner.close();
     }
 
