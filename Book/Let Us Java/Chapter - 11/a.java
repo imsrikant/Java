@@ -17,7 +17,7 @@ public class a {
         }
         System.out.print("Enter the value for search: ");
         double value = scanner.nextDouble();
-        System.out.printf("The number of time value is present is %d.", (howManyTimes(arr, value)));
+        System.out.printf("The number of time value is present is %d.\n", (howManyTimes(arr, value)));
         scanner.close();
     }
 
