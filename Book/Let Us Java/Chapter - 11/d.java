@@ -15,7 +15,11 @@ public class d {
         size = scanner.nextInt();
         arr = new int[size];
         arrEntry(arr);
+        int[] newArr = copyArr(arr);
+        System.out.println("Old Array");
         printArr(arr);
+        System.out.println("New Array");
+        printArr(newArr);
         scanner.close();
     }
 
@@ -37,9 +41,10 @@ public class d {
     }
 
     public static void printArr(int[] arr) {
-        for (int i : arr) {
-            System.out.println(arr[i]);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.printf("%d ", arr[i]);
         }
+        System.out.println();
     }
 
 }
