@@ -47,5 +47,5 @@ public class d {
         System.out.println();
     }
 
-    
+
 }
