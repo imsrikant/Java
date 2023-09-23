@@ -3,7 +3,6 @@
 /**
  * d
  */
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class d {
@@ -29,13 +28,18 @@ public class d {
         scanner.close();
     }
 
+    public static int[] copyArr(int[] arr) {
+        int[] newArr = new int[arr.length];
+        for (int i = 0; i < newArr.length; i++) {
+            newArr[i] = arr[i];
+        }
+        return newArr;
+    }
+
     public static void printArr(int[] arr) {
         for (int i : arr) {
-            extracted(arr, i);
+            System.out.println(arr[i]);
         }
     }
 
-    private static PrintStream extracted(int[] arr, int i) {
-        return System.out.printf("Value: %d\n", arr[i]);
-    }
 }
