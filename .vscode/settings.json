@@ -1,5 +1,5 @@
 {
-    "gitdoc.enabled": true,
+    "gitdoc.enabled": false,
     "java.debug.settings.onBuildFailureProceed": true,
     "cSpell.words": [
         "Aurieel",
