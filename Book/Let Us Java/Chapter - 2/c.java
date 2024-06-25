@@ -15,7 +15,7 @@ public class c {
         biology = scanner.nextFloat();
         System.out.print("Enter Computer Marks: ");
         computer = scanner.nextFloat();
-        if (math >= 100 || physics >= 100 || chemistry >= 100 || biology >= 100 || computer >= 100) {
+        if (math > 100 || physics > 100 || chemistry > 100 || biology > 100 || computer > 100) {
             System.out.println("Marks can't be greater than 100");
             scanner.close();
             return;
